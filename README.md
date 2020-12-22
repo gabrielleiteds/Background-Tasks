@@ -1,2 +1,2 @@
 ## Background Tasks
-Application performing multiple tasks at the same time asynchronously with the Bull library
+Many functions/tasks that are created in our application can take a long time to run, which could slow down our system, and can be avoided running synchronously, causing a better user experience.
